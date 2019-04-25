@@ -14,3 +14,15 @@ eureka:
 spring:
   application:
     name: eureka3000
+  profiles:
+    active: dev
+
+---
+
+server:
+  port: 8201
+
+spring:
+  profiles: test
+  application:
+    name: test-cloud-dev-2.0
