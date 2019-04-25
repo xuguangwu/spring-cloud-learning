@@ -12,3 +12,10 @@
 6. 配置sleuth和zipkin
 
 ![spring-cloud](https://github.com/xuguangwu/xuguangwu.github.io/blob/master/img/in-post/springcloud/springcloud.jpg?raw=true)
+
+本项目直接运行，需在本地hosts文件中添加
+````
+127.0.0.1 eureka3000.com
+127.0.0.1 eureka3001.com
+127.0.0.1 eureka3002.com
+````
