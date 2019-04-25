@@ -11,5 +11,4 @@
 
 6. 配置sleuth和zipkin
 
-![spring-cloud](https://raw.githubusercontent.com/xuguangwu/spring-cloud-learning/master/images/spring-cloud.png)
-
+![spring-cloud](https://raw.githubusercontent.com/xuguangwu/spring-cloud-learning/master/images/springcloud.jpg)
