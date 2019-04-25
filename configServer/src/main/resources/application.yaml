@@ -8,8 +8,8 @@ spring:
       server:
         git:
           uri: https://github.com/xuguangwu/spring-cloud-learning.git
-          search-paths: configFiles*
-          clone-on-start: true
+          search-paths: configFiles
+#          clone-on-start: true
 eureka:
   client:
     serviceUrl:
