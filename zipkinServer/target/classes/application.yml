@@ -1,7 +1,0 @@
-management:
-  metrics:
-    web:
-      server:
-        autoTimeRequests: false
-server:
-  port: 8080
