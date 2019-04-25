@@ -8,3 +8,4 @@ cloud:
     server:
       git:
         uri: https://github.com/xuguangwu/spring-cloud-learning.git
+        search-paths: configFiles
