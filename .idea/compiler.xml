@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="BUILD_PROCESS_HEAP_SIZE" value="2048" />
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="common" />
+        <module name="configServer" />
+        <module name="eureka3000" />
+        <module name="eureka3001" />
+        <module name="eureka3002" />
+        <module name="power" />
+        <module name="user" />
+        <module name="zipkinServer" />
+        <module name="zuul" />
+        <module name="zuul9001" />
+        <module name="zuul9002" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="common" options="-parameters" />
+      <module name="configServer" options="-parameters" />
+      <module name="eureka3000" options="-parameters" />
+      <module name="eureka3001" options="-parameters" />
+      <module name="eureka3002" options="-parameters" />
+      <module name="power" options="-parameters" />
+      <module name="user" options="-parameters" />
+      <module name="zipkinServer" options="-parameters" />
+      <module name="zuul" options="-parameters" />
+      <module name="zuul9001" options="-parameters" />
+      <module name="zuul9002" options="-parameters" />
+    </option>
+  </component>
+</project>
