@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: test
+
+---
+
+server:
+  port: 8021
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: test-cloud-dev-2.0
