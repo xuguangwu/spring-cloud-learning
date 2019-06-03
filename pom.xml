@@ -18,6 +18,7 @@
 		<module>zuul9002</module>
 		<module>configServer</module>
 		<module>zipkinServer</module>
+		<module>rocketmq</module>
 	</modules>
 
 
